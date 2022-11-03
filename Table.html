@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        * {}
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: left;
+        }
+
+        .Marksheet {
+            text-align: center;
+            font-size: 25px;
+            background-color: #55BCC9;
+        }
+
+        /* .footer {
+            background-color: #55BCC9;
+        } */
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+
+        th,
+        td {
+            background-color: #8bc3faea;
+        }
+        tfoot{
+            font-size: 20px;
+            background-color:#55BCC9 ;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 50%;" class="center">
+        <thead>
+            <tr>
+                <th colspan="4" class="Marksheet">Marksheet</th>
+            </tr>
+            <tr>
+                <th>Name-Lily</th>
+                <th>Class-9th</th>
+                <th>Roll-6</th>
+                <th>Year-2022</th>
+            </tr>
+        </thead>
+        <tr>
+            <th>Subject</th>
+            <th>Full Marks</th>
+            <th>Pass Marks</th>
+            <th>Obtained Marks</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Hindi</td>
+                <td>100</td>
+                <td>30</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>100</td>
+                <td>30</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>100</td>
+                <td>30</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        <tfoot class="footer">
+            <tr>
+                <td>Total</td>
+                <td>300</td>
+                <td>90</td>
+                <td>190</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
